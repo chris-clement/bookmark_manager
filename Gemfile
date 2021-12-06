@@ -16,4 +16,5 @@ end
 
 group :development do
   gem 'rack'
+  gem "rubocop", "1.20"
 end
