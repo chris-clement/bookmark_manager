@@ -1,5 +1,4 @@
 # Bookmark Manager
-___________________________
 
 ## Specifications
 
