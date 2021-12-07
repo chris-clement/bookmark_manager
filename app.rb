@@ -1,3 +1,4 @@
+require_relative('./lib/bookmark.rb')
 require 'sinatra'
 require 'sinatra/reloader'
 
@@ -7,8 +8,8 @@ class Bookmark_Manager < Sinatra::Base
   end
 
   get '/' do
+    @bookmarks = Bookmark.new
     erb :index
-    'Bookmark1'
   end
   
   run! if app_file == $0
