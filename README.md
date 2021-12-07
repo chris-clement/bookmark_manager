@@ -25,7 +25,16 @@
 
 ## Database Set up
 
+### Main Database
+
 1. Connect to psql
 2. Create the database using psql command CREATE DATABASE bookmark_manager
 3. Connect to the database psql command \c bookmark_manager
+4. Run the query saved in the file 01_create_bookmarks_table.sql
+
+### Test Database
+
+1. Connect to psql
+2. Create the test database using psql command CREATE DATABASE bookmark_manager_test
+3. Connect to the database psql command \c bookmark_manager_test
 4. Run the query saved in the file 01_create_bookmarks_table.sql
