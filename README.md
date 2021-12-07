@@ -2,7 +2,7 @@
 
 ## Specifications
 
-* Show a list of bookmarks
+* Show a list of bookmarks ✅
 * Add new bookmarks
 * Delete bookmarks
 * Update bookmarks
@@ -13,7 +13,7 @@
 
 ## User Stories 
 * As a user, so I can quickly visit a website, I would like to see a list of bookmarks
-* As a user, because I'm always finding new websites, I would like to add new bookmarks
+* As a user, I would like to add the site's address and title to bookmark manager.
 * As a user, so I can remove sites I'm no longer interested in, I would like to remove bookmarks. 
 * As a user, so I can keep my bookmarks organised, I would like to tag my bookmarks into categories. 
 * As a user, so I can quickly find the websites I want, I would like to filter my bookmarks by category
