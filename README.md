@@ -22,3 +22,10 @@
 ## Domain Model
 
 # ![Domain Model](https://github.com/sabrinalord/bookmark_manager/blob/main/screenshot/model_shows_bookmark_list.png)
+
+## Database Set up
+
+1. Connect to psql
+2. Create the database using psql command CREATE DATABASE bookmark_manager
+3. Connect to the database psql command \c bookmark_manager
+4. Run the query saved in the file 01_create_bookmarks_table.sql
