@@ -1,5 +1,8 @@
+<h2> Welcome to your Bookmark Manager </h2>
 <%= @bookmarks.all %>
 <form action="/add_bookmark" method="Post">
+  <p> </p>
+  <div> Add your bookmark below </div>
   <input type="text" name="title" placeholder='Title'>
   <input type="text" name="url" placeholder='URL'>
   <input type="submit" name="Submit">
