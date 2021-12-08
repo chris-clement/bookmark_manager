@@ -1,5 +1,6 @@
 <%= @bookmarks.all %>
 <form action="/add_bookmark" method="Post">
-  <input type="text" name="url">
+  <input type="text" name="title" placeholder='Title'>
+  <input type="text" name="url" placeholder='URL'>
   <input type="submit" name="Submit">
 </form>

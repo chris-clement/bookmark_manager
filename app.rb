@@ -1,4 +1,4 @@
-require_relative('./lib/bookmark.rb')
+require_relative './lib/bookmark.rb'
 require 'sinatra'
 require 'sinatra/reloader'
 
@@ -18,7 +18,7 @@ class Bookmark_Manager < Sinatra::Base
 
   post '/add_bookmark' do
     @bookmarks = Bookmark.new
-    @bookmarks.create(params[:url])
+    @bookmarks.create(params[:title], params[:url])
     redirect '/bookmarks'
   end
   
